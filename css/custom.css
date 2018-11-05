@@ -14,3 +14,7 @@
 .fa:hover {
 	opacity: 0.7;
 }
+
+li {
+	font-size: 25px !important;
+}
