@@ -752,20 +752,18 @@
             <section id="thankYou">
                 <h2>DZIĘKI!</h2>
             </section>
-            <!-- ======================================================================= -->
-            <section id="funnyPhotos">
-                <h2>tutaj miały być śmieszne zdjęcia z konferencji</h2>
+            <section id="funnyStuff">
+                <p>tutaj miały być śmieszne zdjęcia z konferencji</p>
+                <p class="fragment">ale nie ma</p>
+                <div class="fragment">
+                    <p style="margin-bottom: 5px">jest za to śmieszny kot</p>
+                    <img style="margin-top: 5px"
+                         src="https://img-9gag-fun.9cache.com/photo/ajNw2R0_700b.jpg"
+                         height="500px">
+                </div>
             </section>
-            <!-- ======================================================================= -->
-            <section id="not">
-                <h2>ale nie ma</h2>
-            </section>
-            <!-- ======================================================================= -->
-            <section id="funnyCat">
-                <h2>jest za to śmieszny kot</h2>
-                <img src="https://img-9gag-fun.9cache.com/photo/ajNw2R0_700b.jpg" height="500px">
-            </section>
-            <!-- ======================================================================= -->
+        </section>
+        <!-- ======================================================================= -->
         </section>
     </div>
 </div>
@@ -784,8 +782,8 @@
             {src: 'plugin/notes/notes.js', async: true},
             {
                 src: 'plugin/highlight/highlight.js', async: true, callback: function () {
-                hljs.initHighlightingOnLoad();
-            }
+                    hljs.initHighlightingOnLoad();
+                }
             }
         ]
     });
